@@ -29,4 +29,5 @@ Successfully completing this task would look like this: <br>
 
 <img width="1440" alt="Screen Shot 2023-01-13 at 11 07 29 AM" src="https://user-images.githubusercontent.com/81266551/212405338-aa21f09b-2982-4dac-a52d-8b2f0ba391fd.png"><br>
 
-Those were all the tasks we had to do for our first lab!
+Looking at the outputs, running the command `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` would print the contents of the file `hello.txt` that's located in our remote server onto the terminal window. Additionally, running the other command would run in terms of the directory and files located within the remote server that we are connected to. If we were to run these commands when we're not logged onto our remote server, the outputs would be completely different. 
+
