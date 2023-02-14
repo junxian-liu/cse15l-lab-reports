@@ -20,7 +20,7 @@ Output:<br>
  This command could be useful to search for a specific term inside of your directory. Not only does it print out the statement containing the term, 
  it also prints out the path to the file that contains the term. 
  
- ## grep -A
+## grep -A
  
  Input:<br>
  `grep -A1 hawaii written_2/*/*/*` <br>
@@ -40,7 +40,7 @@ Output:<br>
  This could be useful for when trying to find a specific term in the diretory. In addition to that, this command also prints out the line
  after the line with the term so there is context provided of how the term is being used. 
  
- ## grep -i
+## grep -i
  
  Input:<br>
  `grep -i shinjuku-dori  written_2/*/*/*`<br>
@@ -58,7 +58,7 @@ Output:<br>
   Similar to -A and -R, -i searches the directory and finds lines that contains the specified phrase. If found, it prints out the location and the 
   line of the text containing the word. This is useful if you want to find all occurences of a certain word in a diretory. 
   
-  ## grep -c
+## grep -c
   
   Input: <br>
   `grep -c "hawaii" written_2/*/*/*/*` <br>
