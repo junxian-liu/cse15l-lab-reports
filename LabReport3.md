@@ -18,7 +18,7 @@ Output:<br>
  <br>
  -R prints the searched pattern in the given directory recursively in all the files. <br>
  This command could be useful to search for a specific term inside of your directory. Not only does it print out the statement containing the term, 
- it also prints out the path to the file that contains the term.  <br><br>
+ it also prints out the path to the file that contains the term. 
  
  ## grep -A
  
@@ -38,7 +38,7 @@ Output:<br>
   <br>
  -A prints the searched line and n lines after the result<br>
  This could be useful for when trying to find a specific term in the diretory. In addition to that, this command also prints out the line
- after the line with the term so there is context provided of how the term is being used. <br><br>
+ after the line with the term so there is context provided of how the term is being used. 
  
  ## grep -i
  
@@ -56,7 +56,7 @@ Output:<br>
   <br>
   
   Similar to -A and -R, -i searches the directory and finds lines that contains the specified phrase. If found, it prints out the location and the 
-  line of the text containing the word. This is useful if you want to find all occurences of a certain word in a diretory. <br><br>
+  line of the text containing the word. This is useful if you want to find all occurences of a certain word in a diretory. 
   
   ## grep -c
   
