@@ -39,3 +39,40 @@ Output:<br>
  -A prints the searched line and n lines after the result<br>
  This could be useful for when trying to find a specific term in the diretory. In addition to that, this command also prints out the line
  after the line with the term so there is context provided of how the term is being used. <br>
+ 
+ ### grep -i
+ 
+ Input:<br>
+ `grep -i shinjuku-dori  written_2/*/*/*`<br>
+ Output: <br>
+ `written_2/travel_guides/berlitz1/WhereToJapan.txt:        A longish walk along Shinjuku-dori from the station will` <br>
+ 
+ Input:<br>
+ `grep -i oahu written_2/*/*/*` <br>
+ Output:<br>
+ `written_2/travel_guides/berlitz1/HandRHawaii.txt:        Oahu (Including Honolulu)
+  written_2/travel_guides/berlitz1/HandRHawaii.txt:        on the west side of Oahu, expertly managed by JW Marriott, Ihilani is`<br>
+  
+  <br>
+  
+  Similar to -A and -R, -i searches the directory and finds lines that contains the specified phrase. If found, it prints out the location and the 
+  line of the text containing the word. This is useful if you want to find all occurences of a certain word in a diretory. <br>
+  
+  ### grep -c
+  
+  Input: <br>
+  `grep -c "hawaii" written_2/*/*/*/*` <br>
+  Output: <br>
+  `written_2/non-fiction/OUP/Abernathy/ch1.txt:0
+   written_2/non-fiction/OUP/Abernathy/ch14.txt:0
+   written_2/non-fiction/OUP/Abernathy/ch15.txt:0` <br>
+  Input: <br>
+  `grep -c "france" written_2/*/*/*`<br>
+  Output: <br>
+  `written_2/travel_guides/berlitz1/HandRHawaii.txt:0
+   written_2/travel_guides/berlitz1/HandRHongKong.txt:0
+   written_2/travel_guides/berlitz1/HandRIbiza.txt:0` <br>
+   
+   <br>
+   Unlike -A, -R, and -i, -c prints an output of a count of the number of matching lines with the phrase within the directory.
+   It's useful when wanting to know how many times a word appears in each file without having to look through the text files individually.
