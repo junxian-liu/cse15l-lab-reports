@@ -61,7 +61,7 @@ Code after: <br>
     return newArray;
   }
  `<br><br>
- In the before code, the method would set the values in the array that we would return, to values of an empty array. So no more matter what array we pass as an argument to the method, the returned array would be an array of empty values. So to fix it, we would set the values of a new array to the array we pass in as a argument in reversed order. Then we would return the reversed new array. <br><br><br><br><br><br>
+ In the before code, the method would set the values in the array that we would return, to values of an empty array. So no more matter what array we pass as an argument to the method, the returned array would be an array of empty values. So to fix it, we would set the values of a new array to the array we pass in as a argument in reversed order. Then we would return the reversed new array. <br><br>
  
- # Things I learned from Lab 2 and 3<br>
+ ## Things I learned from Lab 2 and 3<br>
  One thing I didn't know but learned during the lab on week 3 was the use of Junit testing and it's application to debugging your code. I found the tool really useful in the aspect that it can test for certain inputs and provide feedback on whether or not those inputs would work and if the code needs to changed. In addition, not only does it work in terms of testing inputs but it can also test your code to ensure that you're getting the outputs that you intend to. If the tests are failing and the output isn't what you want, you know you need to change your code. This tool allows you to code more efficiently.
