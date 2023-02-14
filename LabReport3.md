@@ -76,3 +76,10 @@ Output:<br>
    <br>
    Unlike -A, -R, and -i, -c prints an output of a count of the number of matching lines with the phrase within the directory.
    It's useful when wanting to know how many times a word appears in each file without having to look through the text files individually.
+<br>
+
+## Sources
+[Source 1](https://www.computerhope.com/unix/ugrep.htm) <br>
+[Source 2](https://www.geeksforgeeks.org/grep-command-in-unixlinux/) <br>
+For both of these sources, I did a simple google search for different grep commands I could use in the terminal. Through looking through a few articles, 
+I found both of these sites quite useful in understanding how different commands worked so I went with them.
