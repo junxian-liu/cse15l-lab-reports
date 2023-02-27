@@ -6,7 +6,7 @@ clone a repository from github account, run tests on the file, debug the files, 
 <img width="501" alt="Screenshot 2023-02-27 at 1 54 26 PM" src="https://user-images.githubusercontent.com/81266551/221694615-53184426-12f0-4348-9bb5-0aff798339e1.png">
 <br>
 This task was fairly simple as it just required us to log into our ieng6 account which is something we have done many times before. 
-To log in, we would type `ssh` followed with our ieng6 account. Then when prompted to enter our password, we would then enter our password there. If everything is correct, you would get a message saying you succesffully logged into your account. <br><br><br>
+To log in, we would type `ssh` followed with our ieng6 account. Then when prompted to enter our password, we would then enter our password there. If everything is correct, you would get a message saying you succesffully logged into your account. <br><br><br><br><br><br><br><br><br>
 
 ### Step 5 - Clone your fork of the repository from your Github account
 <img width="610" alt="Screenshot 2023-02-25 at 5 11 29 PM" src="https://user-images.githubusercontent.com/81266551/221488429-d651c0aa-acbc-4b1e-ad9e-417763cb7a2a.png">
@@ -21,7 +21,7 @@ we would get the message that it's cloning into our directory.
 To start this task, we had to type `cd lab7` to get into the lab7 directory. Once we're done with that, we have compile and run the tests to see
 if they pass or not. To do that we typed `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile all java files in the directory 
 then `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` to run the tests. After running that last
-command, the next message we should see is whether or not the tests passed, and if they failed, the failure message. As for us, we confirmed that the tests failed. <br><br>
+command, the next message we should see is whether or not the tests passed, and if they failed, the failure message. As for us, we confirmed that the tests failed. <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### Step 7 - Edit the code file to fix the failing test
 <img width="443" alt="Screenshot 2023-02-25 at 5 21 05 PM" src="https://user-images.githubusercontent.com/81266551/221496092-bea41ff8-1285-46da-aafe-aef8cab19528.png">
