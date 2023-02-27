@@ -21,7 +21,7 @@ we would get the message that it's cloning into our directory.
 To start this task, we had to type `cd lab7` to get into the lab7 directory. Once we're done with that, we have compile and run the tests to see
 if they pass or not. To do that we typed `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile all java files in the directory 
 then `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` to run the tests. After running that last
-command, the next message we should see is whether or not the tests passed, and if they failed, the failure message. As for us, we confirmed that the tests failed. <br><br><br><br><br><br><br><br><br>
+command, the next message we should see is whether or not the tests passed, and if they failed, the failure message. As for us, we confirmed that the tests failed. <br><br><br><br><br><br><br><br>
 
 ### Step 7 - Edit the code file to fix the failing test
 <img width="443" alt="Screenshot 2023-02-25 at 5 21 05 PM" src="https://user-images.githubusercontent.com/81266551/221496092-bea41ff8-1285-46da-aafe-aef8cab19528.png">
@@ -31,7 +31,7 @@ To complete this task, we had to edit the `ListExamples.java` file so it would p
  `nano ListExamples.java` so we could get into the file to edit. Then in the screen where we edit the file, I pressed the down key until I got to 
 43 because that's where I found the error to be located. Once I got down to line 43, I pressed the right key to edit the `index1` and changed it to
 `index2`. Now that everything is updated, we had to write it to the file and confirm the edits. To do so I typed `^O` to write out the edits and 
-`<enter>` to confirm the edits. To exit out of nano, I typed `^X`. <br><br><br><br><br><br><br>
+`<enter>` to confirm the edits. To exit out of nano, I typed `^X`. <br><br><br><br><br><br><br><br><br>
 
 ### Step 8 - Run the tests, demonstrating that they now succeed
 <img width="963" alt="Screenshot 2023-02-26 at 9 57 51 PM" src="https://user-images.githubusercontent.com/81266551/221496206-d74114b1-c59d-42f7-9c2e-92ca195d7845.png">
