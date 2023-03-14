@@ -22,7 +22,7 @@ So in this lab report, I'll explore a few more ways we could use `grep`.
  
  This command simply searchs for the specific word or phase in all the files of the directory.<br>
  This would be useful if you just wanted to determine if a word is found in the directory and where the word located. 
- <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
+ <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br>
  
  ## grep -l "word or phrase"
  
