@@ -24,8 +24,7 @@ So in this lab report, I'll explore a few more ways we could use `grep`.
  This would be useful if you just wanted to determine if a word is found in the directory and where the word located. 
  <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
  
- 
- ##  grep -l "word or phrase"
+ ## grep -l "word or phrase"
  
  Input:<br>
  `grep -l "hawaii" written_2/*/*/*` <br>
